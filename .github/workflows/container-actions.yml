@@ -9,7 +9,9 @@ env:
 
 jobs:
   test-container:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: label-windows-1
+
     container:
       image: node:16
     steps:
